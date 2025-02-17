@@ -7,7 +7,7 @@ type ApiResponse<T> = {
 }
 
 const api: AxiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://de1.api.radio-browser.info/json',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://de1.api.radio-browser.info/json',
   headers: {
     'Content-Type': 'application/json',
   },
